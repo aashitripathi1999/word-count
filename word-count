@@ -1,0 +1,8 @@
+sentence = input("Enter Your Sentence: ")
+r = sentence.split()    #using split() function to split the string into a list of words with space as a separator
+word_count = len(r)    #counting the elements in the list
+if sentence:
+    print(f"Number of Words in Your Sentence: {word_count}") #if user enters a empty string if condition will evaluate to false
+    #if condition is true then the word count will be printed
+else:
+    print("Empty Input") #on entering a empty string this message will display
